@@ -21,7 +21,9 @@ int main()
     con = (g-32)/1.8;
     printf("%f ºF = %f ºC",g ,con);
   }
-  // codigo eliminado
+   //mantenimiento
+
+printf("por el momento la conversion no puede realizarse");
 
 
   return 0;
