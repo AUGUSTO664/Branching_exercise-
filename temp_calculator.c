@@ -21,13 +21,8 @@ int main()
     con = (g-32)/1.8;
     printf("%f ºF = %f ºC",g ,con);
   }
-  else
-  {
-    printf("Introduce los ºC: ");
-    scanf("%f", &g);
-    con = g *1.8 + 32;
-    printf("%f ºC = %f ªF", g, con);
-  }
+  // codigo eliminado
+
 
   return 0;
 }
